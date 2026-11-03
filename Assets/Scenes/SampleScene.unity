@@ -483,8 +483,9 @@ GameObject:
   - component: {fileID: 297247996}
   - component: {fileID: 297247995}
   - component: {fileID: 297247994}
+  - component: {fileID: 297247997}
   m_Layer: 0
-  m_Name: Obstaculo3
+  m_Name: Obstaculo4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -583,6 +584,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 297247992}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &297247997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 297247992}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3759197730289334380f18050b968fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotador
+  RotacionY: 10
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -1407,6 +1421,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1025414855}
   - {fileID: 1001006146}
   - {fileID: 1909571756}
   - {fileID: 297247993}
@@ -1727,8 +1742,9 @@ GameObject:
   - component: {fileID: 1001006149}
   - component: {fileID: 1001006148}
   - component: {fileID: 1001006147}
+  - component: {fileID: 1001006150}
   m_Layer: 0
-  m_Name: Obstaculo1
+  m_Name: Obstaculo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1827,6 +1843,24 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1001006145}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1001006150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1001006145}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3759197730289334380f18050b968fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotador
+  RotacionY: 10
+--- !u!4 &1025414855 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+  m_PrefabInstance: {fileID: 8622149683368849985}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1152581922
 GameObject:
   m_ObjectHideFlags: 0
@@ -2190,8 +2224,9 @@ GameObject:
   - component: {fileID: 1909571759}
   - component: {fileID: 1909571758}
   - component: {fileID: 1909571757}
+  - component: {fileID: 1909571760}
   m_Layer: 0
-  m_Name: Obstaculo2
+  m_Name: Obstaculo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2290,6 +2325,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1909571755}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1909571760
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1909571755}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3759197730289334380f18050b968fe4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Rotador
+  RotacionY: 10
 --- !u!1 &1957424797
 GameObject:
   m_ObjectHideFlags: 0
@@ -2566,6 +2614,63 @@ MonoBehaviour:
   movimientoEjeY: 0
   movimientoEjeZ: 0
   velocidadMovimiento: 1.5
+--- !u!1001 &8622149683368849985
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 797580190}
+    m_Modifications:
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -3.14
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.58564997
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -3.74
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.9895241
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0.14436781
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: -16.601
+      objectReference: {fileID: 0}
+    - target: {fileID: 3582834665796289833, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4826208356389420325, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
+      propertyPath: m_Name
+      value: Obstaculo1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c91aa9b2d06ccbd488ad4cecd3f44bee, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
